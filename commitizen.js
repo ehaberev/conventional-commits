@@ -63,7 +63,7 @@ module.exports = {
       'Напишите ПОДРОБНОЕ описание (опционально). Используйте "|" для новой строки:\n',
     breaking: "Список BREAKING CHANGES (опционально):\n",
     footer:
-      "Место для мета данных (тикетов, ссылок и остального). Например: SECRETMRKT-700, SECRETMRKT-800:\n",
+      "Место для мета данных (тикетов, ссылок и остального). Например: Resolve #125:\n",
     confirmCommit: "Вас устраивает получившийся коммит?"
   },
 
@@ -74,7 +74,7 @@ module.exports = {
   allowBreakingChanges: false,
 
   // Префикс для нижнего колонтитула
-  footerPrefix: "METADATA:",
+  footerPrefix: "METADATA: ",
 
   // limit subject length
   subjectLimit: 72
